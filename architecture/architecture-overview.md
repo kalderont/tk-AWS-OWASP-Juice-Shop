@@ -1,6 +1,6 @@
 # Architecture Overview 
 
-Stage 1 - Baseline:
+## Stage 1 - Baseline:
 The baseline architecture hosts the OWASP Juice Shop application using Amazon ECS on EC2 instances within private subnets. The application is exposed to the internet exclusively through an Application Load Balancer (ALB).
 
 ### Design Principles

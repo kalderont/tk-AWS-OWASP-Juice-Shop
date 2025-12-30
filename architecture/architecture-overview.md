@@ -19,4 +19,4 @@ The baseline architecture hosts the OWASP Juice Shop application using Amazon EC
 ### Current State
 At this stage, no Web Application Firewall (WAF) rules are applied. This provides a baseline for observing attack behavior and application responses prior to mitigation.
 
-Stage 2: (Secured - WAF Enabled)
+## Stage 2 - WAF Enabled:

@@ -8,11 +8,18 @@ The environment is intentionally built in stages to validate security controls t
    - ECS-based application deployment without WAF
    - Private subnets with controlled egress
    - TLS-enabled public ingress
-2. Attack Simulation (OWASP Top 10)
-3. Web Application Firewall (WAF) Integration
-4. Post-WAF Attack Validation and Log Analysis
-
-This repository documents **Phase 1: Baseline Infrastructure**.
+2. Attack Simulation with Burp Suite
+   - Path Traversal (OWASP 1: Broken Access Control)
+   - SQL Injection (OWASP 5: Injection)
+   - XSS Exploitation (OWASP 5: Injection)
+4. Web Application Firewall (WAF) Integration
+   - Attachment of WAF to ALB
+   - Custom and Managed Rule Configuration
+   - Enable Logging
+6. Post-WAF Attack Validation and Log Analysis
+   - Exploitation Reattempt
+   - Blocked Request Validation
+   - CloudWatch Logs Analysis
 
 ## High-Level Goals
 - Host a deliberately vulnerable application in AWS
@@ -22,5 +29,5 @@ This repository documents **Phase 1: Baseline Infrastructure**.
 - Demonstrate measurable security improvement after mitigation
 
 ## Application
-- OWASP Juice Shop (containerized)
+- OWASP Juice Shop (containerized - Docker)
 

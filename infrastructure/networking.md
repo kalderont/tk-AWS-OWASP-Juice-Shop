@@ -9,8 +9,8 @@
 ## Subnets
 ### Public Subnets
 - Used for Application Load Balancer and NAT instance
-  - Ideally, a NAT Gateway should be deployed here instead for higher availability, minimal overhead, and better security.
-  - This project utilizes a Nat Instance for cost savings and `iptables` configuration practice.
+  - Ideally, a NAT Gateway should be deployed here to allow private subnets to access the internet with higher availability, minimal overhead, and better security.
+  - This project utilizes a NAT instance for cost savings and `iptables` configuration practice.
 - Internet Gateway attached
 - Public 1:
   - AZ: us-east-1a

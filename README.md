@@ -1,4 +1,4 @@
-# AWS Cloud Security Project – OWASP Juice Shop - Tal Kalderon
+# Tal Kalderon - AWS Cloud Security Project – OWASP Juice Shop
 
 This project demonstrates the design and deployment of a secure AWS cloud environment hosting the OWASP Juice Shop application. 
 The environment is intentionally built in stages to validate security controls through attack simulation and observable evidence.
